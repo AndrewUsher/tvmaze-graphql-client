@@ -1,0 +1,1 @@
+# tvmaze-graphql-client
