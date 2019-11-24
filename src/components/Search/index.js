@@ -6,7 +6,7 @@ import {
   CardContent,
   CardMedia,
   Grid,
-  Input,
+  OutlinedInput,
   InputAdornment,
   Typography
 } from '@material-ui/core'
@@ -65,9 +65,9 @@ const Search = () => {
           </Box>
         </Grid>
       </Grid>
-      <Grid item container>
-        <Grid item xs={12} md={4}>
-          <Input
+      <Grid item container justify="center">
+        <Grid item xs={12} md={3}>
+          <OutlinedInput
             fullWidth
             placeholder="Search for a TV Show"
             onChange={handleSearchChange}
