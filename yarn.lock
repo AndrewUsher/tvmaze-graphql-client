@@ -992,7 +992,7 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@drewster/eslint-config@^1.0.0":
+"@drewster/eslint-config@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@drewster/eslint-config/-/eslint-config-1.0.0.tgz#0d3bd24860853e89551e9de1ff2d37037a8aeb25"
   integrity sha512-M29s8cGYXJRUMgN+uAf5QGpnrV6rZujTzn/EbtDexSNpJrLjwnVe6FIgEpy/lz4rJtk9noatCwZ/I/BEABqLxA==
