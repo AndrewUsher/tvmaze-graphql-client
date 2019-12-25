@@ -4,23 +4,8 @@ module.exports = {
     "es6": true
   },
   "extends": [
-    "standard",
-    "plugin:react/recommended"
+    "@drewster"
   ],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
-  },
-  "plugins": [
-    "react"
-  ],
-  "rules": {
-  }
+  "ignorePatterns": ['dist', '.cache', '.parcel-cache'],
+
 };
